@@ -53,8 +53,8 @@ The dataset consists of **120,000+ retail transactions** stored across three rel
 ---
 
 ## 🛠 Tools and Technologies
-- **Excel** – Data cleaning, XLOOKUP-based table joining, Pivot Tables, charts, dashboard
-- **PostgreSQL / SQL** – Database and table creation, data storage, joins, aggregations, analytical queries
+- **Excel** – Data cleaning, XLOOKUP-based table integration, Pivot Tables & Pivot Charts, dashboard with interactive charts and KPI analysis
+- **PostgreSQL / SQL** – Database and table creation, data loading, joins, aggregations, analytical queries
 - **Python (NumPy, Pandas, Matplotlib, Seaborn, Statsmodels)** – Data cleaning and preparation, EDA, statistical analysis, visualizations, simple forecasting
 - **Power BI** – Data modeling, DAX, interactive dashboard
 
@@ -88,10 +88,10 @@ The dataset consists of **120,000+ retail transactions** stored across three rel
 
 ## 📊 Dashboard / Model / Output
 
-- Excel dashboard with data cleaning, Pivot Tables, charts, and KPI analysis
-- SQL scripts for database creation, data loading, and analytical queries
-- Python analysis and visualizations for EDA, profitability and discount impact, CLV, customer churn, and sales forecasting
-- Interactive Power BI dashboard with sales, customer, and profitability insights
+- Excel workbook with cleaned data, XLOOKUP-based table integration, Pivot Tables & Pivot Charts, and a dashboard with interactive charts and KPI analysis.
+- SQL scripts for database and table creation, data loading, and analytical queries.
+- Python notebook with analysis and visualizations for cleaned and prepared data, EDA, profitability and discount impact, statistical analysis, CLV, customer churn, and sales forecasting.
+- Interactive Power BI dashboard with data modeling and insights into sales, revenue, profitability, and customer analytics.
 
 ---
 
@@ -118,6 +118,7 @@ retail-sales-performance-analysis-excel-sql-python-powerbi/
 │
 ├── sql/
 │   ├── analysis_queries.sql
+│   ├── create_database.sql
 │   ├── create_tables.sql
 │   ├── load_data.sql
 │
@@ -129,12 +130,12 @@ retail-sales-performance-analysis-excel-sql-python-powerbi/
 
 ## ▶️ How to Run This Project
 
-1. Execute `create_tables.sql` in PostgreSQL to create the required database tables.
-2. Load the CSV files into PostgreSQL using `load_data.sql` in the `psql` terminal.
-3. Execute `analysis_queries.sql` to perform SQL-based analysis.
+1. Execute `create_database.sql` and `create_tables.sql` in the PostgreSQL/SQL query tool to create the required database and tables.
+2. Load the CSV files into PostgreSQL using `load_data.sql` in the `psql`/SQL terminal.
+3. Execute `analysis_queries.sql` in the query tool to perform SQL-based analysis.
 4. Open the Python notebook (`retail_sales_eda.ipynb`) using PyCharm or Jupyter Notebook to perform EDA, generate visualizations, and forecast sales trends.
-5. Open the Excel workbook to review data cleaning, XLOOKUP-based table joining, Pivot Tables, charts, and the Excel dashboard.
-6. Open the Power BI (`.pbix`) file to explore the interactive dashboard.
+5. Open the Excel workbook to review data cleaning, XLOOKUP-based table integration, Pivot Tables & Pivot Charts, and the Excel dashboard with interactive charts and KPI analysis.
+6. Open the Power BI (`.pbix`) file to explore data modeling, DAX calculations, and an interactive dashboard with insights into sales, revenue, profitability, and customer analytics.
 7. Review the project insights, results, and conclusions provided in the repository.
 
 ---
