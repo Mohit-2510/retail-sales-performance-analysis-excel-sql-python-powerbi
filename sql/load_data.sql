@@ -1,4 +1,4 @@
--- Run this query in psql terminal
+-- Run these queries in psql terminal
 
 \copy customers
 FROM '/path/to/customers_large.csv'
