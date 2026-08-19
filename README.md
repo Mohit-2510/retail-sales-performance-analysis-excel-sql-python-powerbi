@@ -53,7 +53,7 @@ The dataset consists of **120,000+ retail transactions** stored across three rel
 ---
 
 ## 🛠 Tools and Technologies
-- **Excel** – Data cleaning, XLOOKUP-based table integration, Pivot Tables & Pivot Charts, dashboard with interactive charts and KPI analysis
+- **Excel** – Data cleaning, XLOOKUP-based table integration, pivot tables & pivot charts, dashboard with interactive charts and KPI analysis
 - **PostgreSQL / SQL** – Database and table creation, data loading, joins, aggregations, analytical queries
 - **Python (NumPy, Pandas, Matplotlib, Seaborn, Statsmodels)** – Data cleaning and preparation, EDA, statistical analysis, visualizations, simple forecasting
 - **Power BI** – Data modeling, DAX, interactive dashboard
@@ -77,18 +77,18 @@ The dataset consists of **120,000+ retail transactions** stored across three rel
 ---
 
 ## 📈 Key Insights
-- A small number of products contribute a large share of total revenue
-- High discounts generally reduce profit despite increasing sales volume
-- Loyal customers generate significantly higher revenue than new customers
-- Churned customers contribute the highest historical revenue, highlighting the importance of customer retention
-- High-CLV customers are few but drive most of the profit
-- Retention strategies are more cost-effective than customer acquisition
+- A small number of products contribute a large share of total.
+- High discounts generally reduce profit despite increasing sales volume.
+- Loyal customers generate significantly higher revenue than new customers.
+- Churned customers contribute the highest historical revenue, highlighting the importance of customer retention.
+- High-CLV customers are few but drive most of the profit.
+- Retention strategies are more cost-effective than customer acquisition.
 
 ---
 
 ## 📊 Dashboard / Model / Output
 
-- Excel workbook with cleaned data, XLOOKUP-based table integration, Pivot Tables & Pivot Charts, and a dashboard with interactive charts and KPI analysis.
+- Excel workbook with cleaned data, XLOOKUP-based table integration, pivot tables & pivot charts, and a dashboard with interactive charts and KPI analysis.
 - SQL scripts for database and table creation, data loading, and analytical queries.
 - Python notebook with analysis and visualizations for cleaned and prepared data, EDA, profitability and discount impact, statistical analysis, CLV, customer churn, and sales forecasting.
 - Interactive Power BI dashboard with data modeling and insights into sales, revenue, profitability, and customer analytics.
@@ -134,7 +134,7 @@ retail-sales-performance-analysis-excel-sql-python-powerbi/
 2. Load the CSV files into PostgreSQL using `load_data.sql` in the `psql`/SQL terminal.
 3. Execute `analysis_queries.sql` in the query tool to perform SQL-based analysis.
 4. Open the Python notebook (`retail_sales_eda.ipynb`) using PyCharm or Jupyter Notebook to perform EDA, generate visualizations, and forecast sales trends.
-5. Open the Excel workbook to review data cleaning, XLOOKUP-based table integration, Pivot Tables & Pivot Charts, and the Excel dashboard with interactive charts and KPI analysis.
+5. Open the Excel workbook to review data cleaning, XLOOKUP-based table integration, pivot tables & pivot charts, and a dashboard with interactive charts and KPI analysis.
 6. Open the Power BI (`.pbix`) file to explore data modeling, DAX calculations, and an interactive dashboard with insights into sales, revenue, profitability, and customer analytics.
 7. Review the project insights, results, and conclusions provided in the repository.
 
